@@ -335,7 +335,7 @@ useEffect(() => {
           <div className="mt-6 flex flex-col md:flex-row items-center justify-center gap-6">
             {/* Imagen inspiracional (coloca el archivo en public/assets/work-music.png) */}
             <img
-              src="/assets/workmusic.jpg"
+              src="./assets/workmusic.jpg"
               alt="Work Music"
               className="hidden md:block w-[520px] h-36 object-cover rounded-xl shadow-2xl border border-white/5"
             />
