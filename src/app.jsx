@@ -181,7 +181,7 @@ useEffect(() => {
       </a>
       <a
         className="px-3 py-2 rounded-md border border-white/5 text-gray-400 hover:text-[#00f5ff]"
-        href="/CV_CliverFrayAguilarSulca_ProgramadorJunior.pdf"
+        href="./public/CV_CliverFrayAguilarSulca_ProgramadorJunior.pdf"
         download
       >
         Descargar CV (PDF)
@@ -228,7 +228,7 @@ useEffect(() => {
       <FaGithub className="text-white" /> GitHub
     </a>
     <a
-      href="https://www.instagram.com/tu_usuario/"
+      href="https://www.instagram.com/ncliver2/"
       target="_blank"
       rel="noreferrer"
       className="flex items-center gap-2 hover:text-[#00f5ff]"
@@ -263,38 +263,46 @@ useEffect(() => {
 </motion.section>
 
 
-        {/* EXPERIENCIA */}
-        <motion.section id="experience" {...fadeIn("right", 0.2)} className="mt-12">
-          <h2 className="text-xl font-semibold mb-3">Experiencia</h2>
-          <div className="grid gap-4">
-            <div className="p-4 rounded-xl bg-[#0b1220]/80 border border-white/5">
-              <strong>D&amp;M Smart — Practicante Pro de Sistemas y Automatizaciones con IA</strong>
-              <p className="text-xs text-gray-400">Julio 2025 – Actualidad · Lima, Perú</p>
-              <ul className="list-disc list-inside text-xs text-gray-400 mt-2">
-                <li>Desarrollo e integración de automatizaciones y pipelines con componentes de IA.</li>
-                <li>Soporte en despliegue y pruebas de modelos para procesos internos.</li>
-              </ul>
-            </div>
+        {/* EXPERIENCIA - TIMELINE VERTICAL */}
+<motion.section id="experience" {...fadeIn("right", 0.2)} className="mt-12">
+  <h2 className="text-xl font-semibold mb-8">Experiencia</h2>
+  
+  <div className="relative border-l border-[#00f5ff]/30 ml-4">
+    {/* ITEM 1 */}
+    <div className="mb-10 ml-6">
+      <span className="absolute -left-3 flex items-center justify-center w-6 h-6 bg-gradient-to-r from-[#00f5ff] to-[#9b5cff] rounded-full ring-4 ring-[#0f1724]"></span>
+      <h3 className="font-semibold">D&M Smart — Practicante Pro de Sistemas y Automatizaciones con IA</h3>
+      <p className="text-xs text-gray-400">Julio 2025 – Actualidad · Lima, Perú</p>
+      <ul className="list-disc list-inside text-xs text-gray-400 mt-2 space-y-1">
+        <li>Desarrollo e integración de automatizaciones y pipelines con componentes de IA.</li>
+        <li>Soporte en despliegue y pruebas de modelos para procesos internos.</li>
+      </ul>
+    </div>
 
-            <div className="p-4 rounded-xl bg-[#0b1220]/80 border border-white/5">
-              <strong>Grupo GN — Programador junior</strong>
-              <p className="text-xs text-gray-400">Febrero 2025 – Mayo 2025 · Lima, Perú</p>
-              <ul className="list-disc list-inside text-xs text-gray-400 mt-2">
-                <li>Desarrollo con PHP y MySQL, documentación en PHPmyAdmin.</li>
-                <li>Presentación semanal de avances y coordinación con QA.</li>
-              </ul>
-            </div>
+    {/* ITEM 2 */}
+    <div className="mb-10 ml-6">
+      <span className="absolute -left-3 flex items-center justify-center w-6 h-6 bg-gradient-to-r from-[#00f5ff] to-[#9b5cff] rounded-full ring-4 ring-[#0f1724]"></span>
+      <h3 className="font-semibold">Grupo GN — Programador junior</h3>
+      <p className="text-xs text-gray-400">Febrero 2025 – Mayo 2025 · Lima, Perú</p>
+      <ul className="list-disc list-inside text-xs text-gray-400 mt-2 space-y-1">
+        <li>Desarrollo con PHP y MySQL, documentación en PHPmyAdmin.</li>
+        <li>Presentación semanal de avances y coordinación con QA.</li>
+      </ul>
+    </div>
 
-            <div className="p-4 rounded-xl bg-[#0b1220]/80 border border-white/5">
-              <strong>Grupo GN — Programador de sistemas web</strong>
-              <p className="text-xs text-gray-400">Enero 2024 – Junio 2024 · Lima, Perú</p>
-              <ul className="list-disc list-inside text-xs text-gray-400 mt-2">
-                <li>Desarrollo y mantenimiento en C# ASP.NET.</li>
-                <li>Soporte, documentación y coordinación con clientes internos.</li>
-              </ul>
-            </div>
-          </div>
-        </motion.section>
+    {/* ITEM 3 */}
+    <div className="ml-6">
+      <span className="absolute -left-3 flex items-center justify-center w-6 h-6 bg-gradient-to-r from-[#00f5ff] to-[#9b5cff] rounded-full ring-4 ring-[#0f1724]"></span>
+      <h3 className="font-semibold">Grupo GN — Programador de sistemas web</h3>
+      <p className="text-xs text-gray-400">Enero 2024 – Junio 2024 · Lima, Perú</p>
+      <ul className="list-disc list-inside text-xs text-gray-400 mt-2 space-y-1">
+        <li>Desarrollo y mantenimiento en C# ASP.NET.</li>
+        <li>Soporte, documentación y coordinación con clientes internos.</li>
+      </ul>
+    </div>
+  </div>
+</motion.section>
+
 
         {/* EDUCACIÓN */}
         <motion.section id="education" {...fadeIn("up", 0.2)} className="mt-12">
