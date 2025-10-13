@@ -322,11 +322,17 @@ export default function App() {
               </p>
               <ul className="list-disc list-inside text-xs text-gray-400 mt-2 space-y-1">
                 <li>
-                  Desarrollo e integración de automatizaciones y pipelines con
+                  Desarrollo e integración de automatizaciones con
                   componentes de IA (chatbots).
                 </li>
                 <li>
                   Soporte de sistemas internos.
+                </li>
+                <li>
+                  Manejo de sistemas SGA y TOA de Claro.
+                </li>
+                <li>
+                  Liquidación de servicios en SGA.
                 </li>
               </ul>
             </div>
