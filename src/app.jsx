@@ -219,7 +219,7 @@ export default function App() {
               </a>
               <a
                 className="px-3 py-2 rounded-md border border-white/5 text-gray-400 hover:text-[#00f5ff]"
-                href="./public/CV_CliverFrayAguilarSulca_ProgramadorJunior.pdf"
+                href="./public/Cliver_Aguilar_PJ.pdf"
                 download
               >
                 Descargar CV (PDF)
