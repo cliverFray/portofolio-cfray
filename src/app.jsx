@@ -141,7 +141,7 @@ export default function App() {
                 Cliver Fray Aguilar Sulca
               </h1>
               <p className="text-xs text-gray-400">
-                Practicante Pro de Sistemas y Automatizaciones con IA — D&M
+                Practicante Pro de Sistemas y Automatizaciones — D&M
                 Smart
               </p>
             </div>
@@ -173,10 +173,9 @@ export default function App() {
               {text}
             </h2>
             <p className="text-gray-400 text-sm mb-4">
-              Soy egresado de Ingeniería de Sistemas de Información (UPC). Tengo
-              experiencia en desarrollo web (C#, PHP), móvil (Flutter) y ML.
-              Actualmente laboro en D&M Smart como practicante pro de sistemas y
-              automatizaciones con IA (Inicio: Julio 2025) — Lima, Perú.
+              Bachiller en Ingeniería de Sistemas de Información (UPC) con
+              experiencia en desarrollo web (C#, Java), móvil (Flutter) y ML.
+              Actualmente laboro en D&M Smart como practicante pro de sistemas y Automatizaciones (Inicio: Julio 2025) — Lima, Perú.
             </p>
 
             {/* ICONOS DE LENGUAJES */}
@@ -316,8 +315,7 @@ export default function App() {
             <div className="mb-10 ml-6">
               <span className="absolute -left-3 flex items-center justify-center w-6 h-6 bg-gradient-to-r from-[#00f5ff] to-[#9b5cff] rounded-full ring-4 ring-[#0f1724]"></span>
               <h3 className="font-semibold">
-                D&M Smart — Practicante Pro de Sistemas y Automatizaciones con
-                IA
+                D&M Smart — Practicante Pro de Sistemas y Automatizaciones
               </h3>
               <p className="text-xs text-gray-400">
                 Julio 2025 – Actualidad · Lima, Perú
@@ -325,11 +323,10 @@ export default function App() {
               <ul className="list-disc list-inside text-xs text-gray-400 mt-2 space-y-1">
                 <li>
                   Desarrollo e integración de automatizaciones y pipelines con
-                  componentes de IA.
+                  componentes de IA (chatbots).
                 </li>
                 <li>
-                  Soporte en despliegue y pruebas de modelos para procesos
-                  internos.
+                  Soporte de sistemas internos.
                 </li>
               </ul>
             </div>
@@ -372,7 +369,7 @@ export default function App() {
         <motion.section id="education" {...fadeIn("up", 0.2)} className="mt-12">
           <h2 className="text-xl font-semibold mb-3">Formación Académica</h2>
           <div className="p-4 rounded-xl bg-[#0b1220]/80 border border-white/5">
-            <strong>Universidad Peruana de Ciencias Aplicadas (UPC)</strong>
+            <strong>Universidad Peruana de Ciencias Aplicadas (UPC) - (2020 - 2025)</strong>
             <p className="text-xs text-gray-400">
               Ingeniería de Sistemas de Información
             </p>
@@ -502,8 +499,7 @@ export default function App() {
         </motion.section>
 
         <footer className="text-center text-xs text-gray-500 mt-12">
-          © {year} Cliver Fray — Portafolio | Hecho con ❤️ y curiosidad por la
-          IA
+          © {year} Cliver Fray — Portafolio | Hecho con ❤️
         </footer>
       </main>
 
