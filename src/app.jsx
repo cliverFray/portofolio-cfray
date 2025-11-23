@@ -219,7 +219,7 @@ export default function App() {
               </a>
               <a
                 className="px-3 py-2 rounded-md border border-white/5 text-gray-400 hover:text-[#00f5ff]"
-                href="./public/Cliver_Aguilar_PJ.pdf"
+                href="./public/Cliver_Aguilar_PJ3.pdf"
                 download
               >
                 Descargar CV (PDF)
@@ -342,7 +342,7 @@ export default function App() {
               <span className="absolute -left-3 flex items-center justify-center w-6 h-6 bg-gradient-to-r from-[#00f5ff] to-[#9b5cff] rounded-full ring-4 ring-[#0f1724]"></span>
               <h3 className="font-semibold">Grupo GN — Programador junior</h3>
               <p className="text-xs text-gray-400">
-                Febrero 2025 – Mayo 2025 · Lima, Perú
+                Enero 2024 – julio 2025 · Lima, Perú
               </p>
               <ul className="list-disc list-inside text-xs text-gray-400 mt-2 space-y-1">
                 <li>
@@ -353,7 +353,7 @@ export default function App() {
             </div>
 
             {/* ITEM 3 */}
-            <div className="ml-6">
+            {/* <div className="ml-6">
               <span className="absolute -left-3 flex items-center justify-center w-6 h-6 bg-gradient-to-r from-[#00f5ff] to-[#9b5cff] rounded-full ring-4 ring-[#0f1724]"></span>
               <h3 className="font-semibold">
                 Grupo GN — Programador de sistemas web
@@ -367,7 +367,7 @@ export default function App() {
                   Soporte, documentación y coordinación con clientes internos.
                 </li>
               </ul>
-            </div>
+            </div> */}
           </div>
         </motion.section>
 
