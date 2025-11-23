@@ -346,9 +346,11 @@ export default function App() {
               </p>
               <ul className="list-disc list-inside text-xs text-gray-400 mt-2 space-y-1">
                 <li>
-                  Desarrollo con PHP y MySQL, documentación en PHPmyAdmin.
+                  Realicé el desarrollo y mantenimiento de aplicaciones web en C# ASP.NET.
                 </li>
-                <li>Presentación semanal de avances y coordinación con QA.</li>
+                <li>Desarrollé sistemas como portal de comunicación (Intranet), Sistema de planilla y Control documentario.</li>
+                <li>Realicé el soporte a usuarios y resolución de incidencias técnicas.</li>
+                <li>●	Documenté los procesos, bugs y manuales de usuario.</li>
               </ul>
             </div>
 
